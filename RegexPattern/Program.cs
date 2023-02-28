@@ -18,6 +18,7 @@ namespace RegexPattern
             pattern.ValidatePassWord("1236afuvp");
             pattern.ValidateUpperCase("Fujhtjbf");
             pattern.ValidateOneNumeric("sfgsg555");
+            pattern.ValidateSpecialChar("ddfd#$54");
             Console.ReadLine();
         }
     }

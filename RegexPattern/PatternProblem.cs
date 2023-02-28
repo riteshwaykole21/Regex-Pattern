@@ -93,5 +93,17 @@ namespace RegexPattern
                 Console.WriteLine("The PassWord Is Not Match With Regex");
             }
         }
+        public void ValidateSpecialChar(string name)
+        {
+            string PassWord = "[0-9a-zA-Z][!@#$%&*]{1}";
+            if (Regex.IsMatch(name, PassWord))
+            {
+                Console.WriteLine("PassWord is Matching With Regex");
+            }
+            else
+            {
+                Console.WriteLine("The PassWord Is Not Match With Regex");
+            }
+        }
     }
 }
