@@ -14,6 +14,7 @@ namespace RegexPattern
             pattern.ValidateFirstName("Ritesh");
             pattern.ValidateLastName("Waykole");
             pattern.ValidateEmailID("abc.xyz@bridgelabz.co.in");
+            pattern.ValidatePhoneNo("91 3265981235");
             Console.ReadLine();
         }
     }
