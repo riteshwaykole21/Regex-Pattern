@@ -17,6 +17,7 @@ namespace RegexPattern
             pattern.ValidatePhoneNo("91 3265981235");
             pattern.ValidatePassWord("1236afuvp");
             pattern.ValidateUpperCase("Fujhtjbf");
+            pattern.ValidateOneNumeric("sfgsg555");
             Console.ReadLine();
         }
     }

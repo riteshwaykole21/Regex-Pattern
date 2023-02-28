@@ -81,5 +81,17 @@ namespace RegexPattern
                 Console.WriteLine("The PassWord Is Not Match With Regex");
             }
         }
+        public void ValidateOneNumeric(string name)
+        {
+            string PassWord = "[A-Za-z0-9]{8,}";
+            if (Regex.IsMatch(name, PassWord))
+            {
+                Console.WriteLine("PassWord is Matching With Regex");
+            }
+            else
+            {
+                Console.WriteLine("The PassWord Is Not Match With Regex");
+            }
+        }
     }
 }
