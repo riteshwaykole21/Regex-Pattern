@@ -33,5 +33,17 @@ namespace RegexPattern
                 Console.WriteLine("The Name Is Not Match With Regex");
             }
         }
+        public void ValidateEmailID(string name)
+        {
+            string EmaiID = "^[a-zA-Z]+[.+_-]{0,1}[a-z]+[@][a-zA-Z]+[.][a-z]{2,3}([.][a-z]{2}){0,1}$";
+            if (Regex.IsMatch(name, EmaiID))
+            {
+                Console.WriteLine("EmailId is Matching With Regex");
+            }
+            else
+            {
+                Console.WriteLine("The Email Is Not Match With Regex");
+            }
+        }
     }
 }

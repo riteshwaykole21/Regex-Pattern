@@ -13,6 +13,7 @@ namespace RegexPattern
             RegexPatternProblem pattern = new RegexPatternProblem();
             pattern.ValidateFirstName("Ritesh");
             pattern.ValidateLastName("Waykole");
+            pattern.ValidateEmailID("abc.xyz@bridgelabz.co.in");
             Console.ReadLine();
         }
     }
