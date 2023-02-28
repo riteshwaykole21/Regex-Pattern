@@ -21,8 +21,17 @@ namespace RegexPattern
                 Console.WriteLine("The Name Is Not Match With Regex");
             }
         }
-        
-            
-        
+        public void ValidateLastName(string name)
+        {
+            string Lastname = "^[A-Z][a-z]{3,}?";
+            if (Regex.IsMatch(name, Lastname))
+            {
+                Console.WriteLine("Last Name is Matching With Regex");
+            }
+            else
+            {
+                Console.WriteLine("The Name Is Not Match With Regex");
+            }
+        }
     }
 }

@@ -12,6 +12,7 @@ namespace RegexPattern
         {
             RegexPatternProblem pattern = new RegexPatternProblem();
             pattern.ValidateFirstName("Ritesh");
+            pattern.ValidateLastName("Waykole");
             Console.ReadLine();
         }
     }
